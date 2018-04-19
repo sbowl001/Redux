@@ -19,7 +19,7 @@ const Todos = (props) => {
 
 const mapStateToProps = state => {
   return {
-    todos: state
+    todos: state.todos
   }
 }
 
